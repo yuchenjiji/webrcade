@@ -1,0 +1,8 @@
+name = "my-webrcade"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+# 告诉 Workers 你的静态资源就在当前目录
+[assets]
+directory = "./"
+binding = "ASSETS"
